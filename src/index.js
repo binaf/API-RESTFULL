@@ -16,7 +16,7 @@ const swagger = require('./config/swagger')
 fastify.register(require('fastify-swagger'), swagger.options)
 
 // Connect to DB
-mongoose.connect('mongodb://localhost/mycargarage')
+mongoose.connect('mongodb://u3rtewkgjxfok1foan9x:riCWs2Xmu3W2sOj99RJw@bchobwzfpwnohfj-mongodb.services.clever-cloud.com:27017/bchobwzfpwnohfj')
   .then(() => console.log('MongoDB connected...'))
   .catch(err => console.log(err))
 

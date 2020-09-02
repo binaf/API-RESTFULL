@@ -3,13 +3,13 @@ exports.options = {
   exposeRoute: true,
   swagger: {
     info: {
-      title: 'Fastify API',
-      description: 'Building a blazing fast REST API with Node.js, MongoDB, Fastify and Swagger',
+      title: "Un exemple d'API pour app crm team Web Rain",
+      description: 'Une API construite avec fast REST API avec Node.js, MongoDB, Fastify et Swagger',
       version: '1.0.0'
     },
     externalDocs: {
       url: 'https://swagger.io',
-      description: 'Find more info here'
+      description: 'Pour plus d informations'
     },
     host: 'localhost',
     schemes: ['http'],
